@@ -1,0 +1,19 @@
+{
+  "name": "api-ecommerce",
+  "version": "1.0.0",
+  "description": "demo of package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "discounts": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "request": "^2.88.0",
+    "shortid": "^2.2.14"
+  }
+}
